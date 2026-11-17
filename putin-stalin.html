@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historical Comparison: Joseph Stalin & Vladimir Putin</title>
+  <style>
+    :root {
+      --bg-color: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --border-color: #e2e8f0;
+      --accent-stalin: #991b1b;
+      --accent-putin: #1e40af;
+      --header-bg: #1e293b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--header-bg);
+      color: #ffffff;
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.75rem;
+      font-weight: 700;
+    }
+
+    header p {
+      max-width: 720px;
+      margin: 0 auto;
+      color: #cbd5e1;
+      font-size: 1.05rem;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .intro-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+
+    .table-container {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      overflow-x: auto;
+      margin-bottom: 2.5rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      min-width: 650px;
+    }
+
+    th, td {
+      padding: 1.1rem 1.25rem;
+      border-bottom: 1px solid var(--border-color);
+      vertical-align: top;
+    }
+
+    th {
+      background-color: #f1f5f9;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    th.col-category { width: 22%; color: var(--text-muted); }
+    th.col-stalin { width: 39%; color: var(--accent-stalin); border-top: 4px solid var(--accent-stalin); }
+    th.col-putin { width: 39%; color: var(--accent-putin); border-top: 4px solid var(--accent-putin); }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    .category-label {
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .perspectives-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 1.5rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+
+    .card h2 {
+      font-size: 1.15rem;
+      margin-bottom: 0.75rem;
+      color: var(--text-main);
+    }
+
+    .card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+      border-top: 1px solid var(--border-color);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Joseph Stalin &amp; Vladimir Putin</h1>
+    <p>A historical and political comparison of two eras of Russian leadership across governance, human casualties, domestic control, and foreign policy.</p>
+  </header>
+
+  <main>
+    <section class="intro-card">
+      <p>
+        Comparing <strong>Joseph Stalin</strong> and <strong>Vladimir Putin</strong> requires examining two distinct eras. Historians widely classify Stalin's rule as a totalitarian regime responsible for tens of millions of deaths, while political scientists characterize Putin's rule as an authoritarian system marked by domestic repression and foreign military aggression.
+      </p>
+    </section>
+
+    <section class="table-container" aria-label="Comparison Table">
+      <table>
+        <thead>
+          <tr>
+            <th class="col-category">Category</th>
+            <th class="col-stalin">Joseph Stalin (1924–1953)</th>
+            <th class="col-putin">Vladimir Putin (1999–Present)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="category-label">System of Government</td>
+            <td>Totalitarian dictatorship with total state control over the economy, media, and private life.</td>
+            <td>Authoritarian regime with controlled elections, state-aligned media, and concentrated executive power.</td>
+          </tr>
+          <tr>
+            <td class="category-label">Estimated Death Toll</td>
+            <td><strong>6 million to 20 million</strong> civilians and political prisoners through purges, Gulag camps, deportations, and the 1932–1933 Soviet famine (Holodomor).</td>
+            <td><strong>Hundreds of thousands</strong> of military and civilian casualties resulting from wars in Chechnya, Georgia, Syria, and the full-scale invasion of Ukraine (2022–present).</td>
+          </tr>
+          <tr>
+            <td class="category-label">Domestic Repression</td>
+            <td>Mass arrests, torture, show trials, forced collectivization, and hundreds of thousands of state executions during the Great Terror.</td>
+            <td>Imprisonment of political opponents, censorship laws, bans on independent media, and suspected assassinations of critics and journalists.</td>
+          </tr>
+          <tr>
+            <td class="category-label">Foreign Policy &amp; Wars</td>
+            <td>Partitioned Eastern Europe with Nazi Germany in 1939, fought World War II, and imposed Soviet satellite regimes across Eastern Europe.</td>
+            <td>Annexed Crimea in 2014, launched a full-scale invasion of Ukraine in 2022, and used military and cyber operations to challenge Western alliances.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="perspectives-grid">
+      <article class="card">
+        <h2>Scale of State Terror under Stalin</h2>
+        <p>
+          Most historians emphasize that Stalin's regime operated on an unmatched scale of systematic domestic mass murder, deliberately starving millions in Ukraine and Kazakhstan and sending roughly 18 million people through the Gulag labor camp system.
+        </p>
+      </article>
+
+      <article class="card">
+        <h2>Modern Impact under Putin</h2>
+        <p>
+          Critics and international bodies—including the International Criminal Court, which issued an arrest warrant for Putin in 2023 over the unlawful deportation of Ukrainian children—argue that Putin dismantled post-Soviet democratic institutions and destabilized global security through military invasions.
+        </p>
+      </article>
+
+      <article class="card">
+        <h2>Historical Rehabilitation in Russia</h2>
+        <p>
+          Under Putin's government, state textbooks and public memorials have increasingly portrayed Stalin in a positive light as a strong wartime leader who industrialized the Soviet Union, downplaying the scale of his political purges.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hosted on GitHub Pages &bull; Historical Overview</p>
+  </footer>
+
+</body>
+</html>
